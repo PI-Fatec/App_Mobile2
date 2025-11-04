@@ -137,11 +137,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    const Text(
-                      'Cor:',
-                      style: TextStyle(fontWeight: FontWeight.bold),
-                    ),
-                    const SizedBox(height: 8),
+                  
                     Wrap(
                       spacing: 8,
                       children:
