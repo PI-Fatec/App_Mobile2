@@ -51,7 +51,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
           const SnackBar(content: Text('Categoria excluída com sucesso!')),
         );
       }
-    } catch (e) {
+    } catch (e) { 
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Erro ao excluir categoria: $e')),
@@ -295,7 +295,6 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            subtitle: Text('Cor: #${category.color}'),
                             trailing: Row(
                               mainAxisSize: MainAxisSize.min,
                               children: [
